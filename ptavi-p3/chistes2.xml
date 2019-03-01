@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<humor>
+  <chiste calificacion="malo">
+    <pregunta>papapapa paco. ¿Eres tartamudo?.</pregunta>
+    <respuesta>Yo no, mi padre, y el del Registro Civil, un mamoncete</respuesta>
+  </chiste>
+  <chiste calificacion="malisimo">
+    <pregunta>Papa, por que te casaste con mama?</pregunta>
+    <respuesta>Ahhhh... tu tampoco te lo explicas!</respuesta>
+  </chiste>
+  <chiste calificacion="malillo">
+    <pregunta>¿En que se parece un elefante a una cama?</pregunta>
+    <respuesta>En que el elefante es un paquidermo y la cama es 'pakiduermas'</respuesta>
+  </chiste>
+  <chiste calificacion="malo">
+    <pregunta>¿Sabes cómo se dice "calzoncillo" en finlandés?</pregunta>
+    <respuesta>Escondinabo</respuesta>
+  </chiste>
+</humor>

@@ -1,0 +1,5 @@
+<config>
+    <server name="Batou" ip="127.0.0.1" puerto="6002"/>
+    <database path="usersdb.txt" passwdpath="passwords.txt"/>
+    <log path="proxylog.txt"/>
+</config>

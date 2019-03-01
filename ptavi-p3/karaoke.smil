@@ -1,0 +1,27 @@
+<smil>
+  <head>
+    <layout> <!--Create the canvas and two display regions -->
+    	<root-layout width="248" height="300"
+		background-color="blue" />
+	     <region id="a" top="20" left="64" />
+	     <region id="b" top="120" left="20"/>
+	     <region id="text_area" top="100" left="20"/>
+     </layout>
+  </head>
+  <body>
+     <par>
+	<img src="http://www.content-networking.com/smil/hello.jpg"
+	     region="a"
+	     begin="2s"
+	     dur="36s"/> <!--Display "Hello" image now for 6 seconds -->
+	<img src="http://www.content-networking.com/smil/earthrise.jpg"
+	     region="b"
+	     begin="12s"
+	     end="48s"/> <!--Display the "World" image after 12 seconds -->
+	<audio src="http://www.content-networking.com/smil/hello.wav"
+	     begin="1s"/> <!-- Begin the audio after 1 seconds -->
+	<textstream src="http://gsyc.es/~grex/letra.rt" region="text_area" fill="freeze" />
+            <audio src="cancion.ogg" begin="4s"/>
+    </par>
+  </body>
+</smil>
